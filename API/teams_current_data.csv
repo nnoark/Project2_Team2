@@ -1,6 +1,7 @@
-TeamID,fullName,nickname,shortName,City
-7,Cleveland Cavaliers,Cavaliers,CLE,Cleveland
-35,Team LeBron,Team LeBron,LBN,Team
-40,Utah Jazz,Jazz,UTA,Utah
-34,Team Team Durant,Team Durant,DRT,Team
-11,Golden State Warriors,Warriors,GSW,Golden State
+team_id,full_name,nickname,short_name,city
+29,Portland Trail Blazers,Trail Blazers,POR,Portland
+1,Atlanta Hawks,Hawks,ATL,Atlanta
+21,Milwaukee Bucks,Bucks,MIL,Milwaukee
+83,,Paschoalotto/Bauru,BAU,Bauru
+16,LA Clippers,Clippers,LAC,LA
+27,Philadelphia 76ers,76ers,PHI,Philadelphia

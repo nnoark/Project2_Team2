@@ -1,6 +1,9 @@
 #api key
 config.py
 
+# personal dataloading file
+haydn_dataloading.ipynb
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

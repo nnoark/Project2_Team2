@@ -1,7 +1,7 @@
 # Project2_Team2
-ETL of NBA Data Base
+ETL of NBA Database
 
-We will be using a data base from an API from Rapid API, provided by API-Sports, and from Kaggle's Basketball Database tables. We want to take each table and clean the data until we have our desired data sets, and then then find a commonality between the two to merge databases to analyze.
+We will be using a data from an API from Rapid API, provided by API-Sports, from Kaggle's Basketball Database tables, and scarped statistics from Basketball-Reference.com. We want to take each table and clean the data until we have our desired data sets, and then then find a commonality between the three to merge databases for analysis.
 
 
 Sources:

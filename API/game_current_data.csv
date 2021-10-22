@@ -1,9 +1,0 @@
-seasonYear Year,arena,city,country,startTimeUTC Time,gameDuration,homeTeam,homeScore,hTeamLeader,awayTeam,awayScore,vTeamLeader
-2015,AT&T Center,San Antonio,,2015-12-15T01:30:00.000Z,2:05,San Antonio Spurs,118,314,Utah Jazz,81,169
-2020,Chase Center,San Francisco,USA,2021-04-26T02:00:00.000Z,2:13,Golden State Warriors,117,124,Sacramento Kings,113,246
-2016,ORACLE Arena,Oakland,,2016-12-04T03:30:00.000Z,2:12,Golden State Warriors,138,124,Phoenix Suns,109,59
-2017,,,,2017-07-15T22:00:00.000Z,2:05,Memphis Grizzlies,98,594,Miami Heat,95,
-2018,AT&T Center,San Antonio,USA,2018-11-05T00:00:00.000Z,2:06,San Antonio Spurs,110,136,Orlando Magic,117,195
-2020,Barclays Center,Brooklyn,USA,2021-03-14T00:00:00.000Z,2:11,Brooklyn Nets,100,216,Detroit Pistons,95,200
-2020,Madison Square Garden,New York,USA,2021-02-06T18:00:00.000Z,2:09,New York Knicks,110,82,Portland Trail Blazers,99,319
-2018,Talking Stick Resort Arena,Phoenix,USA,2019-04-06T02:00:00.000Z,2:26,Phoenix Suns,133,805,New Orleans Pelicans,126,441

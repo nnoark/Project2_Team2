@@ -1,6 +1,6 @@
-fullName,nickname,shortName,City
-Cleveland Cavaliers,Cavaliers,CLE,Cleveland
-Team LeBron,Team LeBron,LBN,Team
-Utah Jazz,Jazz,UTA,Utah
-Team Team Durant,Team Durant,DRT,Team
-Golden State Warriors,Warriors,GSW,Golden State
+TeamID,fullName,nickname,shortName,City
+7,Cleveland Cavaliers,Cavaliers,CLE,Cleveland
+35,Team LeBron,Team LeBron,LBN,Team
+40,Utah Jazz,Jazz,UTA,Utah
+34,Team Team Durant,Team Durant,DRT,Team
+11,Golden State Warriors,Warriors,GSW,Golden State

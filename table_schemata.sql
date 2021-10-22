@@ -8,7 +8,7 @@ CREATE TABLE active_info (
 	id_y DECIMAL,
 	drafted_by VARCHAR
 );
-SELECT * FROM active_info;
+
 
 CREATE TABLE salaries_21 (
 	team VARCHAR,
@@ -17,7 +17,7 @@ CREATE TABLE salaries_21 (
 	FOREIGN KEY (full_name) REFERENCES active_info(full_name)
 	
 );
-SELECT * FROM salaries_info;
+
 
 CREATE TABLE stats_per36 (
 	id SERIAL UNIQUE PRIMARY KEY,
@@ -47,7 +47,7 @@ CREATE TABLE stats_per36 (
 	pts DECIMAL
 	
 );
-SELECT * FROM stats_per36;
+
 
 CREATE TABLE stats_per100 (
 	id SERIAL,
@@ -84,3 +84,34 @@ CREATE TABLE stats_per100 (
 	FOREIGN KEY (id) REFERENCES stats_per36(id)
 	
 );
+ALTER TABLE active_info
+DROP COLUMN id_y;
+
+ALTER TABLE active_info
+DROP COLUMN pick;
+
+ALTER TABLE active_info
+RENAME COLUMN overall TO overall_pick;
+
+ALTER TABLE salaries_21
+DROP CONSTRAINT salaries_21_full_name_fkey;
+
+ALTER TABLE stats_per100
+RENAME COLUMN game_sec TO games_started;
+
+ALTER TABLE stats_per36
+RENAME COLUMN game_sec TO games_started;
+
+ALTER TABLE stats_per100
+DROP COLUMN or_tg;
+
+ALTER TABLE stats_per100
+DROP COLUMN dr_tg;
+
+ALTER TABLE stats_per100
+DROP CONSTRAINT stats_per100_id_fkey;
+
+SELECT * FROM stats_per100;
+
+SELECT COUNT(full_name) 
+FROM active_info;
